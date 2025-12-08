@@ -2,13 +2,13 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Net.Http;
 using System.Text.Json;
-using Carelytix.HealthAnalytics.Application.Ai;
-using Carelytix.HealthAnalytics.Application.Ai.Models;
-using Carelytix.HealthAnalytics.Infrastructure.Data;
+using HealthAnalytics.Application.Ai;
+using HealthAnalytics.Application.Ai.Models;
+using HealthAnalytics.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace Carelytix.HealthAnalytics.Infrastructure.Ai;
+namespace HealthAnalytics.Infrastructure.Ai;
 
 public class LlmAnalyticsAssistantService : IAnalyticsAssistantService
 {

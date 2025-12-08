@@ -1,4 +1,4 @@
-namespace Carelytix.HealthAnalytics.Domain.Entities;
+namespace HealthAnalytics.Domain.Entities;
 
 public class Patient
 {

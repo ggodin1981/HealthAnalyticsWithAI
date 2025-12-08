@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Carelytix.HealthAnalytics.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef734ba67a33d9176fe2aed87ea64f8030e8aec0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Carelytix.HealthAnalytics.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Carelytix.HealthAnalytics.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

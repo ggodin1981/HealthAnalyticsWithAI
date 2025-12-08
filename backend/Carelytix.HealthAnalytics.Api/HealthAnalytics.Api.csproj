@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Carelytix.HealthAnalytics.Application\Carelytix.HealthAnalytics.Application.csproj" />
-    <ProjectReference Include="..\Carelytix.HealthAnalytics.Infrastructure\Carelytix.HealthAnalytics.Infrastructure.csproj" />
+    <ProjectReference Include="..\Carelytix.HealthAnalytics.Application\HealthAnalytics.Application.csproj" />
+    <ProjectReference Include="..\Carelytix.HealthAnalytics.Infrastructure\HealthAnalytics.Infrastructure.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />

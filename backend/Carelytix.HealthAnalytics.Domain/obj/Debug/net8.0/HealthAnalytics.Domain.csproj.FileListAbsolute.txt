@@ -1,0 +1,12 @@
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\bin\Debug\net8.0\HealthAnalytics.Domain.deps.json
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\bin\Debug\net8.0\HealthAnalytics.Domain.dll
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\bin\Debug\net8.0\HealthAnalytics.Domain.pdb
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\HealthAnalytics.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\HealthAnalytics.Domain.AssemblyInfoInputs.cache
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\HealthAnalytics.Domain.AssemblyInfo.cs
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\HealthAnalytics.Domain.csproj.CoreCompileInputs.cache
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\HealthAnalytics.Domain.sourcelink.json
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\HealthAnalytics.Domain.dll
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\refint\HealthAnalytics.Domain.dll
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\HealthAnalytics.Domain.pdb
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Domain\obj\Debug\net8.0\ref\HealthAnalytics.Domain.dll

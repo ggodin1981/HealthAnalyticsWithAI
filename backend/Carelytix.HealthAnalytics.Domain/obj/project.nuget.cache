@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gf9g9tiYvqw=",
+  "dgSpecHash": "MAP9zlja0+c=",
   "success": true,
-  "projectFilePath": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Domain\\Carelytix.HealthAnalytics.Domain.csproj",
+  "projectFilePath": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Domain\\HealthAnalytics.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

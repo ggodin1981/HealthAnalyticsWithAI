@@ -1,6 +1,6 @@
-using Carelytix.HealthAnalytics.Application.Patients.Models;
+using HealthAnalytics.Application.Patients.Models;
 
-namespace Carelytix.HealthAnalytics.Application.Patients;
+namespace HealthAnalytics.Application.Patients;
 
 public interface IPatientService
 {

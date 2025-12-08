@@ -1,6 +1,6 @@
-using Carelytix.HealthAnalytics.Application.Auth.Models;
+using HealthAnalytics.Application.Auth.Models;
 
-namespace Carelytix.HealthAnalytics.Application.Auth;
+namespace HealthAnalytics.Application.Auth;
 
 public interface IAuthService
 {

@@ -1,4 +1,4 @@
-namespace Carelytix.HealthAnalytics.Application.Ai.Models;
+namespace HealthAnalytics.Application.Ai.Models;
 
 public record AnalyzeRequest(
     string Question,

@@ -1,6 +1,6 @@
 ﻿using System.Text;
-using Carelytix.HealthAnalytics.Application;
-using Carelytix.HealthAnalytics.Infrastructure;
+using HealthAnalytics.Application;
+using HealthAnalytics.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;

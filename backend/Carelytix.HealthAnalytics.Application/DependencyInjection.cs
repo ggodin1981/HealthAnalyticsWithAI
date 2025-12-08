@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Carelytix.HealthAnalytics.Application;
+namespace HealthAnalytics.Application;
 
 public static class DependencyInjection
 {

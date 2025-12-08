@@ -1,4 +1,4 @@
-namespace Carelytix.HealthAnalytics.Application.Patients.Models;
+namespace HealthAnalytics.Application.Patients.Models;
 
 public record PatientDto(
     Guid Id,

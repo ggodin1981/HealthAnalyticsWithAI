@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t+tYa0AUoLM=",
+  "dgSpecHash": "zBwcBAaOFYM=",
   "success": true,
-  "projectFilePath": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Api\\Carelytix.HealthAnalytics.Api.csproj",
+  "projectFilePath": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Api\\HealthAnalytics.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

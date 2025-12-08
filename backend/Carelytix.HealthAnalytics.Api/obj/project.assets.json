@@ -616,37 +616,37 @@
           }
         }
       },
-      "Carelytix.HealthAnalytics.Application/1.0.0": {
+      "HealthAnalytics.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Carelytix.HealthAnalytics.Domain": "1.0.0",
+          "HealthAnalytics.Domain": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
-          "bin/placeholder/Carelytix.HealthAnalytics.Application.dll": {}
+          "bin/placeholder/HealthAnalytics.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Carelytix.HealthAnalytics.Application.dll": {}
+          "bin/placeholder/HealthAnalytics.Application.dll": {}
         }
       },
-      "Carelytix.HealthAnalytics.Domain/1.0.0": {
+      "HealthAnalytics.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Carelytix.HealthAnalytics.Domain.dll": {}
+          "bin/placeholder/HealthAnalytics.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Carelytix.HealthAnalytics.Domain.dll": {}
+          "bin/placeholder/HealthAnalytics.Domain.dll": {}
         }
       },
-      "Carelytix.HealthAnalytics.Infrastructure/1.0.0": {
+      "HealthAnalytics.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Carelytix.HealthAnalytics.Application": "1.0.0",
-          "Carelytix.HealthAnalytics.Domain": "1.0.0",
+          "HealthAnalytics.Application": "1.0.0",
+          "HealthAnalytics.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -655,10 +655,10 @@
           "System.IdentityModel.Tokens.Jwt": "8.15.0"
         },
         "compile": {
-          "bin/placeholder/Carelytix.HealthAnalytics.Infrastructure.dll": {}
+          "bin/placeholder/HealthAnalytics.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Carelytix.HealthAnalytics.Infrastructure.dll": {}
+          "bin/placeholder/HealthAnalytics.Infrastructure.dll": {}
         }
       }
     }
@@ -1813,26 +1813,26 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
-    "Carelytix.HealthAnalytics.Application/1.0.0": {
+    "HealthAnalytics.Application/1.0.0": {
       "type": "project",
-      "path": "../Carelytix.HealthAnalytics.Application/Carelytix.HealthAnalytics.Application.csproj",
-      "msbuildProject": "../Carelytix.HealthAnalytics.Application/Carelytix.HealthAnalytics.Application.csproj"
+      "path": "../Carelytix.HealthAnalytics.Application/HealthAnalytics.Application.csproj",
+      "msbuildProject": "../Carelytix.HealthAnalytics.Application/HealthAnalytics.Application.csproj"
     },
-    "Carelytix.HealthAnalytics.Domain/1.0.0": {
+    "HealthAnalytics.Domain/1.0.0": {
       "type": "project",
-      "path": "../Carelytix.HealthAnalytics.Domain/Carelytix.HealthAnalytics.Domain.csproj",
-      "msbuildProject": "../Carelytix.HealthAnalytics.Domain/Carelytix.HealthAnalytics.Domain.csproj"
+      "path": "../Carelytix.HealthAnalytics.Domain/HealthAnalytics.Domain.csproj",
+      "msbuildProject": "../Carelytix.HealthAnalytics.Domain/HealthAnalytics.Domain.csproj"
     },
-    "Carelytix.HealthAnalytics.Infrastructure/1.0.0": {
+    "HealthAnalytics.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Carelytix.HealthAnalytics.Infrastructure/Carelytix.HealthAnalytics.Infrastructure.csproj",
-      "msbuildProject": "../Carelytix.HealthAnalytics.Infrastructure/Carelytix.HealthAnalytics.Infrastructure.csproj"
+      "path": "../Carelytix.HealthAnalytics.Infrastructure/HealthAnalytics.Infrastructure.csproj",
+      "msbuildProject": "../Carelytix.HealthAnalytics.Infrastructure/HealthAnalytics.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Carelytix.HealthAnalytics.Application >= 1.0.0",
-      "Carelytix.HealthAnalytics.Infrastructure >= 1.0.0",
+      "HealthAnalytics.Application >= 1.0.0",
+      "HealthAnalytics.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -1844,11 +1844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Api\\Carelytix.HealthAnalytics.Api.csproj",
-      "projectName": "Carelytix.HealthAnalytics.Api",
-      "projectPath": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Api\\Carelytix.HealthAnalytics.Api.csproj",
+      "projectUniqueName": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Api\\HealthAnalytics.Api.csproj",
+      "projectName": "HealthAnalytics.Api",
+      "projectPath": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Api\\HealthAnalytics.Api.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Api\\obj\\",
+      "outputPath": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1870,11 +1870,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Application\\Carelytix.HealthAnalytics.Application.csproj": {
-              "projectPath": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Application\\Carelytix.HealthAnalytics.Application.csproj"
+            "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Application\\HealthAnalytics.Application.csproj": {
+              "projectPath": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Application\\HealthAnalytics.Application.csproj"
             },
-            "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Infrastructure\\Carelytix.HealthAnalytics.Infrastructure.csproj": {
-              "projectPath": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Infrastructure\\Carelytix.HealthAnalytics.Infrastructure.csproj"
+            "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Infrastructure\\HealthAnalytics.Infrastructure.csproj": {
+              "projectPath": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Infrastructure\\HealthAnalytics.Infrastructure.csproj"
             }
           }
         }

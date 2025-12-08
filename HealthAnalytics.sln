@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.0.11222.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carelytix.HealthAnalytics.Api", "backend\Carelytix.HealthAnalytics.Api\Carelytix.HealthAnalytics.Api.csproj", "{8D2BB08B-C596-8609-DB88-7E33D7426DFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthAnalytics.Api", "backend\Carelytix.HealthAnalytics.Api\HealthAnalytics.Api.csproj", "{8D2BB08B-C596-8609-DB88-7E33D7426DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carelytix.HealthAnalytics.Application", "backend\Carelytix.HealthAnalytics.Application\Carelytix.HealthAnalytics.Application.csproj", "{FA00E307-67F5-2A76-76D8-EC7268237382}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthAnalytics.Application", "backend\Carelytix.HealthAnalytics.Application\HealthAnalytics.Application.csproj", "{FA00E307-67F5-2A76-76D8-EC7268237382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carelytix.HealthAnalytics.Domain", "backend\Carelytix.HealthAnalytics.Domain\Carelytix.HealthAnalytics.Domain.csproj", "{0E5E7CDA-C500-43C8-73D7-67053964D817}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthAnalytics.Domain", "backend\Carelytix.HealthAnalytics.Domain\HealthAnalytics.Domain.csproj", "{0E5E7CDA-C500-43C8-73D7-67053964D817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carelytix.HealthAnalytics.Infrastructure", "backend\Carelytix.HealthAnalytics.Infrastructure\Carelytix.HealthAnalytics.Infrastructure.csproj", "{932C800A-D1DF-6840-EF75-1E9E33D641FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthAnalytics.Infrastructure", "backend\Carelytix.HealthAnalytics.Infrastructure\HealthAnalytics.Infrastructure.csproj", "{932C800A-D1DF-6840-EF75-1E9E33D641FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

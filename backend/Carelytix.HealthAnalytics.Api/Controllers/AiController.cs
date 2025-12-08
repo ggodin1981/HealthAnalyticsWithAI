@@ -1,10 +1,10 @@
-using Carelytix.HealthAnalytics.Application.Ai;
-using Carelytix.HealthAnalytics.Application.Ai.Models;
+using HealthAnalytics.Application.Ai;
+using HealthAnalytics.Application.Ai.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Carelytix.HealthAnalytics.Api.Controllers;
+namespace HealthAnalytics.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

@@ -1,4 +1,4 @@
-namespace Carelytix.HealthAnalytics.Application.Auth.Models;
+namespace HealthAnalytics.Application.Auth.Models;
 
 public record AuthResult(
     string AccessToken,

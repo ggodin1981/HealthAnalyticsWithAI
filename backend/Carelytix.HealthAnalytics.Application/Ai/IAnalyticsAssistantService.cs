@@ -1,6 +1,6 @@
-using Carelytix.HealthAnalytics.Application.Ai.Models;
+using HealthAnalytics.Application.Ai.Models;
 
-namespace Carelytix.HealthAnalytics.Application.Ai;
+namespace HealthAnalytics.Application.Ai;
 
 public interface IAnalyticsAssistantService
 {

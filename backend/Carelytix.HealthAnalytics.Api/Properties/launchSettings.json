@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Carelytix.HealthAnalytics.Api": {
+    "HealthAnalytics.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

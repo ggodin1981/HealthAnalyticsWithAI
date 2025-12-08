@@ -1,7 +1,7 @@
-using Carelytix.HealthAnalytics.Domain.Entities;
+using HealthAnalytics.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Carelytix.HealthAnalytics.Infrastructure.Data;
+namespace HealthAnalytics.Infrastructure.Data;
 
 public class HealthAnalyticsDbContext : DbContext
 {

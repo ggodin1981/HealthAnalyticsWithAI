@@ -1,10 +1,10 @@
-using Carelytix.HealthAnalytics.Application.Patients;
-using Carelytix.HealthAnalytics.Application.Patients.Models;
-using Carelytix.HealthAnalytics.Domain.Entities;
-using Carelytix.HealthAnalytics.Infrastructure.Data;
+using HealthAnalytics.Application.Patients;
+using HealthAnalytics.Application.Patients.Models;
+using HealthAnalytics.Domain.Entities;
+using HealthAnalytics.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Carelytix.HealthAnalytics.Infrastructure.Repositories;
+namespace HealthAnalytics.Infrastructure.Repositories;
 
 public class PatientService : IPatientService
 {

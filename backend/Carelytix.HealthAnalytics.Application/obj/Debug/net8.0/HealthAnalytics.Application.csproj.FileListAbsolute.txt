@@ -1,0 +1,16 @@
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\bin\Debug\net8.0\HealthAnalytics.Application.deps.json
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\bin\Debug\net8.0\HealthAnalytics.Application.dll
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\bin\Debug\net8.0\HealthAnalytics.Application.pdb
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\bin\Debug\net8.0\HealthAnalytics.Domain.dll
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\bin\Debug\net8.0\HealthAnalytics.Domain.pdb
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.csproj.AssemblyReference.cache
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.AssemblyInfoInputs.cache
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.AssemblyInfo.cs
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.csproj.CoreCompileInputs.cache
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.sourcelink.json
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAn.68316BC6.Up2Date
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.dll
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\refint\HealthAnalytics.Application.dll
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\HealthAnalytics.Application.pdb
+C:\Demo Projects\HealthAnalytics\backend\Carelytix.HealthAnalytics.Application\obj\Debug\net8.0\ref\HealthAnalytics.Application.dll

@@ -5,8 +5,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Carelytix.HealthAnalytics.Domain\Carelytix.HealthAnalytics.Domain.csproj" />
-    <ProjectReference Include="..\Carelytix.HealthAnalytics.Application\Carelytix.HealthAnalytics.Application.csproj" />
+    <ProjectReference Include="..\Carelytix.HealthAnalytics.Domain\HealthAnalytics.Domain.csproj" />
+    <ProjectReference Include="..\Carelytix.HealthAnalytics.Application\HealthAnalytics.Application.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />

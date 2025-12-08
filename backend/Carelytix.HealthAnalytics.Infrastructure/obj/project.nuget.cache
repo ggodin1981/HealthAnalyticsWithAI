@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Hm5n0lThJw=",
+  "dgSpecHash": "yVc3kAwMJdI=",
   "success": true,
-  "projectFilePath": "C:\\Demo Projects\\carelytix-health-analytics-with-auth-ai\\backend\\Carelytix.HealthAnalytics.Infrastructure\\Carelytix.HealthAnalytics.Infrastructure.csproj",
+  "projectFilePath": "C:\\Demo Projects\\HealthAnalytics\\backend\\Carelytix.HealthAnalytics.Infrastructure\\HealthAnalytics.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",

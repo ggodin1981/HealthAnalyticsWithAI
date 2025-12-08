@@ -1,15 +1,15 @@
-using Carelytix.HealthAnalytics.Application.Ai;
-using Carelytix.HealthAnalytics.Application.Auth;
-using Carelytix.HealthAnalytics.Application.Patients;
-using Carelytix.HealthAnalytics.Infrastructure.Ai;
-using Carelytix.HealthAnalytics.Infrastructure.Auth;
-using Carelytix.HealthAnalytics.Infrastructure.Data;
-using Carelytix.HealthAnalytics.Infrastructure.Repositories;
+using HealthAnalytics.Application.Ai;
+using HealthAnalytics.Application.Auth;
+using HealthAnalytics.Application.Patients;
+using HealthAnalytics.Infrastructure.Ai;
+using HealthAnalytics.Infrastructure.Auth;
+using HealthAnalytics.Infrastructure.Data;
+using HealthAnalytics.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Carelytix.HealthAnalytics.Infrastructure;
+namespace HealthAnalytics.Infrastructure;
 
 public static class DependencyInjection
 {

@@ -1,15 +1,15 @@
 using System.Security.Cryptography;
 using System.Text;
-using Carelytix.HealthAnalytics.Application.Auth;
-using Carelytix.HealthAnalytics.Application.Auth.Models;
-using Carelytix.HealthAnalytics.Infrastructure.Data;
+using HealthAnalytics.Application.Auth;
+using HealthAnalytics.Application.Auth.Models;
+using HealthAnalytics.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
-namespace Carelytix.HealthAnalytics.Infrastructure.Auth;
+namespace HealthAnalytics.Infrastructure.Auth;
 
 public class AuthService : IAuthService
 {
