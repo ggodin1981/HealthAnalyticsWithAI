@@ -63,7 +63,7 @@ docker compose up --build
 ## Frontend Usage
 
 ```bash
-cd frontend/carelytix-web
+cd frontend
 npm install
 echo "NEXT_PUBLIC_API_BASE_URL=http://localhost:5000" > .env.local
 npm run dev
