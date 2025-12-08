@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: carelytix-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: carelytix
+      POSTGRES_PASSWORD: changeme
+      POSTGRES_DB: carelytix
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile.api
+    container_name: carelytix-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__Postgres: "Host=postgres;Database=carelytix;Username=carelytix;Password=changeme"
+      Jwt__Issuer: "carelytix-local"
+      Jwt__Audience: "carelytix-clients"
+      Jwt__Key: "THIS_IS_NOT_SECURE_CHANGE_ME_FOR_PROD"
+      Ai__Endpoint: "https://YOUR-AI-ENDPOINT"
+      Ai__Path: "/v1/chat/completions"
+      Ai__ApiKey: "SET_ME_IN_ENVIRONMENT"
+      Ai__Model: "gpt-4.1-mini"
+    ports:
+      - "5000:8080"
+    depends_on:
+      - postgres
+
+  web:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile.web
+    container_name: carelytix-web
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: "http://localhost:5000"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+volumes:
+  pgdata:

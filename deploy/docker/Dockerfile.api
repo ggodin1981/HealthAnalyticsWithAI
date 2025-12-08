@@ -1,0 +1,21 @@
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 8080
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY ./src/Carelytix.HealthAnalytics.Api/*.csproj ./Carelytix.HealthAnalytics.Api/
+COPY ./src/Carelytix.HealthAnalytics.Infrastructure/*.csproj ./Carelytix.HealthAnalytics.Infrastructure/
+COPY ./src/Carelytix.HealthAnalytics.Application/*.csproj ./Carelytix.HealthAnalytics.Application/
+COPY ./src/Carelytix.HealthAnalytics.Domain/*.csproj ./Carelytix.HealthAnalytics.Domain/
+
+RUN dotnet restore Carelytix.HealthAnalytics.Api/Carelytix.HealthAnalytics.Api.csproj
+
+COPY ./src ./
+RUN dotnet publish Carelytix.HealthAnalytics.Api/Carelytix.HealthAnalytics.Api.csproj -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENV ASPNETCORE_URLS=http://+:8080
+ENTRYPOINT ["dotnet", "Carelytix.HealthAnalytics.Api.dll"]
