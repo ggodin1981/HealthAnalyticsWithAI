@@ -1,4 +1,4 @@
-# CareLytix Health Analytics – Enterprise Sample (C#, ASP.NET Core, PostgreSQL, AI Assistant)
+# Health Analytics – Enterprise Sample (C#, ASP.NET Core, PostgreSQL, AI Assistant)
 
 This repository is an **enterprise-style reference implementation** designed to demonstrate experience as a **Lead C#/.NET Developer** for data-driven healthcare systems.
 
