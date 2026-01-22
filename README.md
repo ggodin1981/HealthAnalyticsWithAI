@@ -46,7 +46,7 @@ docker compose up --build
 
 - API: http://localhost:5000 (Swagger: `/swagger`)
 - Web: http://localhost:3000
-- PostgreSQL: localhost:5432 (carelytix / changeme)
+- PostgreSQL: localhost:5432 (healthcare / changeme)
 
 ## Auth & Roles
 
